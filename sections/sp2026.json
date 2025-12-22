@@ -1,0 +1,13 @@
+{
+  "sectionNumber": "32538",
+  "courseId": "CSIT-175 (32538)",
+  "term": "Spring 2026",
+  "startDate": "2026-01-26T08:00:00",
+  "endDate": "2026-05-23T08:00:00",
+  "gradesDue": "2026-05-25T08:00:00",
+  "schedule": {
+    "day": "Monday",
+    "time": "6P - 9P",
+    "location": "Rancho Bernardo Ed Center #416"
+  }
+}

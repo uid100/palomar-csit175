@@ -1,0 +1,34 @@
+{
+  "canvas": {
+    "server": "https://palomar.instructure.com",
+    "coursePath": "/courses/58510"
+  },
+  "college": "palomar",
+  "instructor": "dan-sullivan",
+  "courseNumber": "CSIT 175",
+  "courseTitle": "Python Programming",
+  "units": 3,
+  "coverImage": "assets/images/programmer.jpg",
+  "description": [
+    "(catalog:)\nCSIT 175 Provides the knowledge and skills necessary to use the Python programming language to develop software for Desktop and Web applications.",
+    "Topics of study include the fundamentals of the language, using lists, dictionaries and creating functions and classes.",
+    "Enrolled students will access course materials and participate in class activities through Canvas"
+  ],
+  "prerequisites": "(co-requisite) Lecture and Lab must be taken concurrently. When you enroll in this class, you will also be automatically enrolled in the lab.",
+  "defaultSection": "sp2026",
+  "outcomes": "outcomes/clo.json",
+  "objectives": "outcomes/lo.json",
+  "textbook": "materials/textbook.json",
+  "templates": {
+    "syllabus": "core:syllabus",
+    "syllabus(override)": "syllabus/syllabus.html",
+    "policies": "policies/policies.html"
+  },
+  "materials": {
+    "required": "materials/required.html",
+    "recommended": "materials/recommended.html"
+  },
+  "gradingDetails": "grading/grading-details.html",
+  "accommodations": "accommodations/accommodations.html",
+  "topicOutline": "outline/outline.html"
+}
