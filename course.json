@@ -17,7 +17,7 @@
   "prerequisites": "(co-requisite) Lecture and Lab must be taken concurrently. When you enroll in this class, you will also be automatically enrolled in the lab.",
   "defaultSection": "sp2026",
   "outcomes": "outcomes/clo.json",
-  "objectives": "outcomes/lo.json",
+  "objectives": "outcomes/slo.json",
   "textbook": "materials/textbook.json",
   "templates": {
     "syllabus": "core:syllabus",
