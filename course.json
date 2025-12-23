@@ -8,7 +8,7 @@
   "courseNumber": "CSIT 175",
   "courseTitle": "Python Programming",
   "units": 3,
-  "coverImage": "/assets/images/programmer.jpg",
+  "coverImage": "/images/programmer.jpg",
   "description": [
     "(catalog:)\nCSIT 175 Provides the knowledge and skills necessary to use the Python programming language to develop software for Desktop and Web applications.",
     "Topics of study include the fundamentals of the language, using lists, dictionaries and creating functions and classes.",
