@@ -1,8 +1,4 @@
 {
-  "canvas": {
-    "server": "https://palomar.instructure.com",
-    "coursePath": "/courses/58510"
-  },
   "college": "palomar",
   "instructor": "dan-sullivan",
   "courseNumber": "CSIT 175",
