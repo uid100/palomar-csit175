@@ -12,6 +12,19 @@
   ],
   "prerequisites": "(co-requisite) Lecture and Lab must be taken concurrently. When you enroll in this class, you will also be automatically enrolled in the lab.",
   "defaultSection": "sp2026",
+  "contact": {
+    "officeHours": {
+      "location": "Remote",
+      "schedule": "weekly Wed 1:00P - 2:30P PST",
+      "label": "Wed 1P - 2:30P",
+      "zoomLink": "https://palomar-edu.zoom.us/j/82972508107?pwd=WnH7yZmAsS1qBGL0QQ8XuNxlmvVDRo.1"
+    },
+    "discordLink": {
+      "label": "Code Bytes",
+      "url": "https://discord.gg/MpHjV4qgxZ"
+    },
+    "about": "preferred method of contact is via email. I will respond to emails within 24 hours on weekdays. Published office hours are times when I will be available on Zoom for real-time communication. If you need to meet at a different time, please email me to schedule an appointment.\nDiscord channels are also available for anytime communication with me and your classmates."
+  },
   "outcomes": "outcomes/clo.json",
   "objectives": "outcomes/slo.json",
   "textbook": "materials/textbook.json",
