@@ -1,4 +1,8 @@
 {
+  "canvas": {
+    "server": "https://palomar.instructure.com",
+    "coursePath": "/courses/58510"
+  },
   "sectionNumber": "32928 & 32929",
   "courseId": "CSIT-175 (32928/32929)",
   "term": "Spring 2025",
