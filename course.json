@@ -28,10 +28,36 @@
   "outcomes": "outcomes/clo.json",
   "objectives": "outcomes/slo.json",
   "textbook": "materials/textbook.json",
-  "labs": {
-    "lab1": {
-      "title": "Lab #1 - Sequential Processing",
-      "module": "01-sequential"
+  "content": {
+    "modules": {
+      "01-sequential": {
+        "title": "Module 1 - Sequential Processing",
+        "pages": {
+          "page1": { "title": "What is Python?","type": "content","source": "content/modules/01-sequential/lesson1/page1.html"},
+          "page2": { "title": "Installing Python", "type": "content", "source": "content/modules/01-sequential/lesson1/page2.html"}
+        },
+        "exercises": {
+          "lab": {
+            "title": "Lab #1 - Sequential Processing",
+            "taskListUrl": "https://uid100.github.io/py/01-sequential/ex/task-list.json",
+            "fragmentsBase": "https://uid100.github.io/py/01-sequential/ex/"
+          }
+        }
+      },
+      "02-conditional": {
+        "title": "Module 2 - Conditional Processing",
+        "pages": {
+          "page1": { "title": "Conditional Statements","type": "content","source": "content/modules/02-conditional/lesson1/page1.html"},
+          "page2": { "title": "Boolean Logic", "type": "content", "source": "content/modules/02-conditional/lesson1/page2.html"}
+        }
+      },
+      "03-iteration": {
+        "title": "Module 3 - Repetitive Processing",
+        "pages": {
+          "page1": { "title": "Loops","type": "content","source": "content/modules/03-repetition/lesson1/page1.html"},
+          "page2": { "title": "Loop Control", "type": "content", "source": "content/modules/03-repetition/lesson1/page2.html"}
+        }
+      }
     }
   },
   "templates": {
