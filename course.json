@@ -28,6 +28,12 @@
   "outcomes": "outcomes/clo.json",
   "objectives": "outcomes/slo.json",
   "textbook": "materials/textbook.json",
+  "labs": {
+    "lab1": {
+      "title": "Lab #1 - Sequential Processing",
+      "module": "01-sequential"
+    }
+  },
   "templates": {
     "syllabus": "core:syllabus",
     "syllabus(override)": "syllabus/syllabus.html",
