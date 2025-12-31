@@ -48,7 +48,7 @@
           "hello-world": {
             "title": "Hello, World!",
             "type": "content",
-            "resource": "https://uid100.github.io/py/01-sequential/hello-world.html"
+            "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html"
           }
         },
         "exercises": {
