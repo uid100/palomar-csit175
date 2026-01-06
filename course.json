@@ -34,8 +34,8 @@
         "title": "Module 1 - Sequential Processing",
         "pages": {
           "implementation-note": {
-            "1": "use resource for absolute (external) links",
-            "2": "use source for course-repo relative (internal) links, courseBase + source"
+            "1": "use *resource* for absolute (external) links",
+            "2": "use *source* for course-repo relative (internal) links, courseBase + source"
           },
           "Chapter-1": { 
             "title": "An Introduction to Python Programming",
