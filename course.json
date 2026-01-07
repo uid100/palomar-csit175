@@ -1,6 +1,9 @@
 {
   "college": "palomar",
-  "instructor": "dan-sullivan",
+  "instructor": {
+    "name": "Dan Sullivan",
+    "email": "daniel.sullivan@sfcollege.edu"
+  },
   "courseNumber": "CSIT 175",
   "courseTitle": "Python Programming",
   "units": 3,
