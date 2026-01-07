@@ -1,7 +1,6 @@
 {
   "college": "palomar",
   "instructor": "dan-sullivan",
-  "instructorEmail": "dsullivan1@palomar.edu",
   "courseNumber": "CSIT 175",
   "courseTitle": "Python Programming",
   "units": 3,
@@ -14,6 +13,7 @@
   "prerequisites": "(co-requisite) Lecture and Lab must be taken concurrently. When you enroll in this class, you will also be automatically enrolled in the lab.",
   "defaultSection": "sp2026",
   "contact": {
+    "instructorEmail": "dsullivan1@palomar.edu",
     "officeHours": {
       "location": "Remote",
       "schedule": "weekly Wed 1:00P - 2:30P PST",
