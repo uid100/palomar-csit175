@@ -52,12 +52,10 @@
             "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html"
           }
         },
-        "exercises": {
-          "lab": {
-            "title": "Lab #1 - Sequential Processing",
-            "taskListUrl": "https://uid100.github.io/py/01-sequential/ex/task-list.json",
-            "fragmentsBase": "https://uid100.github.io/py/01-sequential/ex/"
-          }
+        "lab": {
+          "title": "Lab #1 - Sequential Processing",
+          "taskListUrl": "https://uid100.github.io/py/01-sequential/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/01-sequential/ex/"
         }
       },
       "02-conditional": {
