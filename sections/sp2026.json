@@ -7,8 +7,8 @@
   "courseId": "CSIT-175 (32538)",
   "term": "Spring 2026",
     "dates": {
-    "start": "2026-01-07",
-    "end": "2026-05-01",
+    "start": "2026-01-26",
+    "end": "2026-05-22",
     "withdraw": "2026-03-25",
     "classesEnd": "2026-04-25",
     "finals": "2026-04-27",
@@ -17,9 +17,11 @@
     "gradesPosted": "2026-05-05",
     "holidays": {
       "mlkDay": "2026-01-19",
+      "Pres. Lincoln's Day": "2026-02-13",
+      "Pres. Washington's Day": "2026-02-16",
       "springBreak": {
-        "start": "2026-03-16",
-        "end": "2026-03-21"
+        "start": "2026-03-23",
+        "end": "2026-03-27"
       },
       "memorialDay": "2026-05-25"
     }
