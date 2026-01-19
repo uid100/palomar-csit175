@@ -41,7 +41,7 @@
           "announce1": {
             "title": "Announcement: Welcome to CSIT 175!",
             "type": "announcement",
-            "resource": "content/announcements/01.0.0.welcome.html"
+            "resource": "https://uid100.github.io/palomar-csit175/content/announcements/01.0.0.welcome.html"
           },
           "Chapter-1": { 
             "title": "An Introduction to Python Programming",
