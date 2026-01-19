@@ -55,7 +55,11 @@
             "title": "Hello, World!",
             "type": "content",
             "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html"
-          }
+          },
+          "end": { 
+            "title": "End of Module 1: Sequential Processing", 
+            "type": "content", "source": "/content/end-module.html"}
+
         },
         "lab": {
           "title": "Lab #1 - Sequential Processing",
