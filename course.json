@@ -38,6 +38,11 @@
             "1": "use *resource* for absolute (external) links",
             "2": "use *source* for course-repo relative (internal) links, courseBase + source"
           },
+          "announce1": {
+            "title": "Announcement: Welcome to CSIT 175!",
+            "type": "announcement",
+            "resource": "content/announcements/01.0.0.welcome.html"
+          },
           "Chapter-1": { 
             "title": "An Introduction to Python Programming",
             "type": "content",
