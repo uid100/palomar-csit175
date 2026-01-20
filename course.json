@@ -41,8 +41,8 @@
           "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/announcements/01.0.0.welcome.html" },
           "overview": {  "title": "Module Overview", "type": "content", "source": "/content/modules/01/overview01.html"},
           "install-python": {  "title": "Installing Python", "type": "content", "resource": "https://uid100.github.io/py/content/install-python.html"},
-          "Chapter-1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
-          "Chapter-2": { "title": "Installing Python","type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch2.html"},
+          "chapter1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
+          "chapter2": { "title": "Installing Python","type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch2.html"},
           "ack": { "title": "Installing Python","type": "content", "resource": "https://content/modules/01-sequential/lesson1/page2.html"},
           "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html" },
           "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
