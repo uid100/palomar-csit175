@@ -38,28 +38,11 @@
             "1": "use *resource* for absolute (external) links",
             "2": "use *source* for course-repo relative (internal) links, courseBase + source"
           },
-          "announce1": {
-            "title": "Announcement: Welcome to CSIT 175!",
-            "type": "announcement",
-            "resource": "https://uid100.github.io/palomar-csit175/content/announcements/01.0.0.welcome.html"
-          },
-          "Chapter-1": { 
-            "title": "An Introduction to Python Programming",
-            "type": "content",
-            "resource": "https://uid100.github.io/py/ch1.html"},
-          "Chapter-2": { 
-            "title": "Installing Python",
-            "type": "content", 
-            "resource": "https://content/modules/01-sequential/lesson1/page2.html"},
-          "hello-world": {
-            "title": "Hello, World!",
-            "type": "content",
-            "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html"
-          },
-          "end": { 
-            "title": "End of Module 1: Sequential Processing", 
-            "type": "content", "source": "/content/end-module.html"}
-
+          "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/announcements/01.0.0.welcome.html" },
+          "Chapter-1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/ch1.html"},
+          "Chapter-2": { "title": "Installing Python","type": "content", "resource": "https://content/modules/01-sequential/lesson1/page2.html"},
+          "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html" },
+          "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
           "title": "Lab #1 - Sequential Processing",
@@ -71,77 +54,88 @@
         "title": "Module 2 - Conditional Processing",
         "pages": {
           "page1": { "title": "Conditional Statements","type": "content","source": "content/modules/02-conditional/lesson1/page1.html"},
-          "page2": { "title": "Boolean Logic", "type": "content", "source": "content/modules/02-conditional/lesson1/page2.html"}
+          "page2": { "title": "Boolean Logic", "type": "content", "source": "content/modules/02-conditional/lesson1/page2.html"},
+          "end": { "title": "End of Module 2: Conditional Processing", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "03-iteration": {
         "title": "Module 3 - Repetitive Processing",
         "pages": {
           "page1": { "title": "Loops","type": "content","source": "content/modules/03-repetition/lesson1/page1.html"},
-          "page2": { "title": "Loop Control", "type": "content", "source": "content/modules/03-repetition/lesson1/page2.html"}
+          "page2": { "title": "Loop Control", "type": "content", "source": "content/modules/03-repetition/lesson1/page2.html"},
+          "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "04-functions": {
         "title": "Module 4 - Functions",
         "pages": {
           "page1": { "title": "Functions","type": "content","source": "content/modules/04-functions/lesson1/page1.html"},
-          "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"}
+          "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"},
+          "end": { "title": "End of Module 4: Functions", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "05-testing-debugging": {
         "title": "Module 5 - Testing and Debugging",
         "pages": {
           "page1": { "title": "Testing","type": "content","source": "content/modules/05-testing-debugging/lesson1/page1.html"},
-          "page2": { "title": "Debugging", "type": "content", "source": "content/modules/05-testing-debugging/lesson1/page2.html"}
+          "page2": { "title": "Debugging", "type": "content", "source": "content/modules/05-testing-debugging/lesson1/page2.html"},
+          "end": { "title": "End of Module 5: Testing and Debugging", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "06-collections": {
         "title": "Module 6 - Collections",
         "pages": {
           "page1": { "title": "Lists","type": "content","source": "content/modules/06-collections/lesson1/page1.html"},
-          "page2": { "title": "Dictionaries", "type": "content", "source": "content/modules/06-collections/lesson1/page2.html"}
+          "page2": { "title": "Dictionaries", "type": "content", "source": "content/modules/06-collections/lesson1/page2.html"},
+          "end": { "title": "End of Module 6: Collections", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "07-files": {
         "title": "Module 7 - File Handling",
         "pages": {
           "page1": { "title": "File I/O","type": "content","source": "content/modules/07-files/lesson1/page1.html"},
-          "page2": { "title": "Working with Files", "type": "content", "source": "content/modules/07-files/lesson1/page2.html"}
+          "page2": { "title": "Working with Files", "type": "content", "source": "content/modules/07-files/lesson1/page2.html"},
+          "end": { "title": "End of Module 7: File Handling", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "08-exceptions": {
         "title": "Module 8 - Exception Handling",
         "pages": {
           "page1": { "title": "Exceptions","type": "content","source": "content/modules/08-exceptions/lesson1/page1.html"},
-          "page2": { "title": "Handling Exceptions", "type": "content", "source": "content/modules/08-exceptions/lesson1/page2.html"}
+          "page2": { "title": "Handling Exceptions", "type": "content", "source": "content/modules/08-exceptions/lesson1/page2.html"},
+          "end": { "title": "End of Module 8: Exception Handling", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "09-dictionaries": {
         "title": "Module 9 - Advanced Data Structures",
         "pages": {
           "page1": { "title": "Advanced Lists","type": "content","source": "content/modules/09-dictionaries/lesson1/page1.html"},
-          "page2": { "title": "Advanced Dictionaries", "type": "content", "source": "content/modules/09-dictionaries/lesson1/page2.html"}
+          "page2": { "title": "Advanced Dictionaries", "type": "content", "source": "content/modules/09-dictionaries/lesson1/page2.html"},
+          "end": { "title": "End of Module 9: Advanced Data Structures", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "10-classes": {
         "title": "Module 10 - Object-Oriented Programming",
         "pages": {
           "page1": { "title": "Classes and Objects","type": "content","source": "content/modules/10-classes/lesson1/page1.html"},
-          "page2": { "title": "Methods and Attributes", "type": "content", "source": "content/modules/10-classes/lesson1/page2.html"}
+          "page2": { "title": "Methods and Attributes", "type": "content", "source": "content/modules/10-classes/lesson1/page2.html"},
+          "end": { "title": "End of Module 10: Object-Oriented Programming", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "11-inheritance": {
         "title": "Module 11 - Inheritance and Polymorphism",
         "pages": {
           "page1": { "title": "Inheritance","type": "content","source": "content/modules/11-inheritance/lesson1/page1.html"},
-          "page2": { "title": "Polymorphism", "type": "content", "source": "content/modules/11-inheritance/lesson1/page2.html"}
+          "page2": { "title": "Polymorphism", "type": "content", "source": "content/modules/11-inheritance/lesson1/page2.html"},
+          "end": { "title": "End of Module 11: Inheritance and Polymorphism", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "12-webapps": {
         "title": "Module 12 - Web Applications",
         "pages": {
           "page1": { "title": "Web Frameworks","type": "content","source": "content/modules/12-webapps/lesson1/page1.html"},
-          "page2": { "title": "Building Web Apps", "type": "content", "source": "content/modules/12-webapps/lesson1/page2.html"}
+          "page2": { "title": "Building Web Apps", "type": "content", "source": "content/modules/12-webapps/lesson1/page2.html"},
+          "end": { "title": "End of Module 12: Web Applications", "type": "content", "source": "/content/end-module.html"}
         }
       }
     }
