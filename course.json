@@ -59,7 +59,7 @@
         "title": "Module 2 - Conditional Processing",
         "pages": {
           "announce2": { "title": "week 2", "type": "announcement", "resource": "" },
-          "overview": { "title": "Conditional Statements","type": "content", "source": "/content/02/overview02.html"},
+          "overview": { "title": "Making Decisions","type": "content", "source": "/content/02/overview02.html"},
           "chapter3": { "title": "Boolean Logic", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
           "interpreter": { "title": "The Python Interpreter", "type": "content", "resource": "https://uid100.github.io/py/content/python-interpreter.html" },
           "directive": { "title": "The Interpreter Directive", "type": "content", "resource": "https://uid100.github.io/py/content/interpreter-directive.html" },
