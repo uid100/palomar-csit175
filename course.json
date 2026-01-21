@@ -93,7 +93,7 @@
         "title": "Module 5 - Testing and Debugging",
         "pages": {
           "page1": { "title": "Testing","type": "content","source": "content/modules/05-testing-debugging/lesson1/page1.html"},
-          "page2": { "title": "Debugging", "type": "content", "source": "content/modules/05-testing-debugging/lesson1/page2.html"},
+          "disc-testing": { "title": "Debugging", "type": "content", "source": "/content/05/disc-testing.html"},
           "end": { "title": "End of Module 5: Testing and Debugging", "type": "content", "source": "/content/end-module.html"}
         }
       },
