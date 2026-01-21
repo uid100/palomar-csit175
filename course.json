@@ -38,13 +38,13 @@
             "1": "use *resource* for absolute (external) links",
             "2": "use *source* for course-repo relative (internal) links, courseBase + source"
           },
-          "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/announcements/01.0.0.welcome.html" },
-          "overview": {  "title": "Module Overview", "type": "content", "source": "/content/modules/01/overview01.html"},
+          "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/01/01.0.0.welcome.html" },
+          "overview": {  "title": "Module Overview", "type": "content", "source": "/content/01/overview01.html"},
           "install-python": {  "title": "Installing Python", "type": "content", "resource": "https://uid100.github.io/py/content/install-python.html"},
           "chapter1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
           "chapter2": { "title": "Writing your first programs","type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch2.html"},
-          "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "/content/modules/01/ack.html"},
-          "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "/content/modules/01/disc-intro.html"},
+          "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "/content/01/ack.html"},
+          "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "/content/01/disc-intro.html"},
           "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/content/hello-world.html" },
           "variables": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/content/variables.html" },
           "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
@@ -58,11 +58,11 @@
       "02-conditional": {
         "title": "Module 2 - Conditional Processing",
         "pages": {
-          "overview": { "title": "Conditional Statements","type": "content", "source": "/content/modules/02/overview02.html"},
-          "chapter3": { "title": "Boolean Logic", "type": "content", "source": "/content/modules/02/chapter3.html"},
+          "overview": { "title": "Conditional Statements","type": "content", "source": "/content/02/overview02.html"},
+          "chapter3": { "title": "Boolean Logic", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
           "interpreter": { "title": "The Python Interpreter", "type": "content", "resource": "https://uid100.github.io/py/content/python-interpreter.html" },
           "directive": { "title": "The Interpreter Directive", "type": "content", "resource": "https://uid100.github.io/py/content/interpreter-directive.html" },
-          "demo-code": { "title": "Demo Code Examples", "type": "content", "source": "/content/modules/02/demo-code.html"},
+          "demo-code": { "title": "Demo Code Examples", "type": "content", "source": "/content/02/demo-code.html"},
           "end": { "title": "End of Module 2: Conditional Processing", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -74,8 +74,8 @@
       "03-iteration": {
         "title": "Module 3 - Repetitive Processing",
         "pages": {
-          "page1": { "title": "Loops","type": "content","source": "content/modules/03-repetition/lesson1/page1.html"},
-          "page2": { "title": "Loop Control", "type": "content", "source": "content/modules/03-repetition/lesson1/page2.html"},
+          "page1": { "title": "Loops","type": "content","source": "/content/03/lesson1/page1.html"},
+          "page2": { "title": "Loop Control", "type": "content", "source": "/content/03/lesson1/page2.html"},
           "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "/content/end-module.html"}
         }
       },
