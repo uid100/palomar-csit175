@@ -46,7 +46,7 @@
           "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "/content/modules/01/ack.html"},
           "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "/content/modules/01/disc-intro.html"},
           "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html" },
-          "variables": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/01-sequential/pages/variables.html" },
+          "variables": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/content/variables.html" },
           "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
