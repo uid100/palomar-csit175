@@ -58,9 +58,17 @@
       "02-conditional": {
         "title": "Module 2 - Conditional Processing",
         "pages": {
-          "page1": { "title": "Conditional Statements","type": "content","source": "content/modules/02-conditional/lesson1/page1.html"},
-          "page2": { "title": "Boolean Logic", "type": "content", "source": "content/modules/02-conditional/lesson1/page2.html"},
+          "overview": { "title": "Conditional Statements","type": "content", "source": "/content/modules/02/overview02.html"},
+          "chapter3": { "title": "Boolean Logic", "type": "content", "source": "/content/modules/02/chapter3.html"},
+          "interpreter": { "title": "The Python Interpreter", "type": "content", "resource": "https://uid100.github.io/py/content/python-interpreter.html" },
+          "directive": { "title": "The Interpreter Directive", "type": "content", "resource": "https://uid100.github.io/py/content/interpreter-directive.html" },
+          "demo-code": { "title": "Demo Code Examples", "type": "content", "source": "/content/modules/02/demo-code.html"},
           "end": { "title": "End of Module 2: Conditional Processing", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #2 - Conditional Processing",
+          "taskListUrl": "https://uid100.github.io/py/02-conditional/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/02-conditional/ex/"
         }
       },
       "03-iteration": {
