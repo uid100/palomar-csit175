@@ -85,6 +85,7 @@
         "pages": {
           "page1": { "title": "Functions","type": "content","source": "content/modules/04-functions/lesson1/page1.html"},
           "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"},
+          "pycache": { "title": "Understanding __pycache__","type": "content","resource": "https://uid100.github.io/py/content/bytecode.html"},
           "end": { "title": "End of Module 4: Functions", "type": "content", "source": "/content/end-module.html"}
         }
       },
