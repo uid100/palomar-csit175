@@ -110,7 +110,7 @@
         "pages": {
           "page1": { "title": "File I/O","type": "content","source": "content/modules/07-files/lesson1/page1.html"},
           "page2": { "title": "Working with Files", "type": "content", "source": "content/modules/07-files/lesson1/page2.html"},
-          "end": { "title": "End of Module 7: File Handling", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 7: File IO", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "08-exceptions": {
