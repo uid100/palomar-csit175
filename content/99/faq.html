@@ -1,16 +1,8 @@
-    <h2 class="alert alert-info">Frequently Asked Questions</h2>
+    <h1 class="alert alert-info">Frequently Asked Questions</h1>
     <p style="font-style: italic;">click each topic to expand</p>
     <p>&nbsp;</p>
     <div>
-        <!-- <h3 
-            class="element_toggler alert alert-success" 
-            style="font-style: italic; color: navy;" 
-            aria-controls="textbook-edition" 
-            aria-label="Toggler toggle list visibility" 
-            aria-expanded="false"> -->
-
-<!-- Trigger -->
-        <h3>
+        <h2>
             <button class="btn btn-primary"
                 type="button"
                 data-bs-toggle="collapse"
@@ -19,7 +11,7 @@
                 aria-controls="textbook-edition">
                 + I have an older version of the textbook, do I need to buy the newer (2d) edition?
             </button>
-        </h3>
+        </h2>
         <div id="textbook-edition" class="collapse" style="list-style: none; margin: 20px;">
             <p>Probably not. I have both the first and second editions. Both are good. The newer edition does have some updated content. In fact, programming languages do evolve over time, so there will be ongoing changes to the language. We will talk through the changes and discover other resources to use as well.</p>
             <p>Relative to other textbooks, this one is modestly priced, but you can probably find a used copy of the older edition and save some a few dollars. Be aware that buying used books online can take longer to arrive and the delay may not be worth the savings.</p>
@@ -28,15 +20,17 @@
         <p>&nbsp;</p>
     </div>
     <div>
-        <h3>
-            class="element_toggler alert alert-success" 
-            style="font-style: italic; color: navy;" 
-            aria-controls="mac-v-pc" 
-            aria-label="Toggler toggle list visibility" 
-            aria-expanded="false">
+        <h2>
+            <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mac-v-pc"
+                aria-expanded="false"
+                aria-controls="mac-v-pc">
                 + Do I need to use a mac or a PC for this class?
-        </h3>
-        <div id="mac-v-pc" style="list-style: none; display: none; margin: 20px;">
+            </button>
+        </h2>
+        <div id="mac-v-pc" class="collapse" style="list-style: none; margin: 20px;">
             <p>Yes! Actually, a stable Linux release would probably be ok too.</p>
             <p>&nbsp;</p>
             <p>Really, either is fine, as long as you are comfortable using the system you choose.</p>
@@ -48,14 +42,36 @@
         <p>&nbsp;</p>
     </div>
     <div>
-        <h3 
-            class="element_toggler alert alert-success" 
-            style="font-style: italic; color: navy;" 
-            aria-controls="late-policy" 
-            aria-label="Toggler toggle list visibility" 
-            aria-expanded="false">
+        <h2>
+            <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ide-v-text-editor"
+                aria-expanded="false"
+                aria-controls="ide-v-text-editor">
+                + Should I use an IDE or a text editor for coding?
+            </button>
+        </h2>
+        <div id="ide-v-text-editor" class="collapse" style="list-style: none; margin: 20px;">
+            <p>Either is fine. I recommend using an IDE if you are new to programming. An IDE can help you manage your code files, provide syntax highlighting, and offer debugging tools that can make the coding process easier.</p>
+            <p>&nbsp;</p>
+            <p>If you are comfortable with a text editor and prefer its simplicity, that's perfectly acceptable as well. The key is to choose a tool that you feel comfortable with and that supports your learning style.</p>
+            <p>Some popular IDEs for Python include PyCharm, Visual Studio Code, and Jupyter Notebook. For text editors, options like Sublime Text, Atom, or even Notepad++ can work well.</p>
+            <p>Ultimately, the choice between an IDE and a text editor comes down to personal preference and what helps you be most productive in your coding journey.</p>
+        </div>
+        <p>&nbsp;</p>
+    </div>
+    <div style="display: none;">
+        <h2>
+            <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#late-policy"
+                aria-expanded="false"
+                aria-controls="late-policy">
                 + I messed up and missed the due date for the last assignment, can I turn it in now?
-        </h3>
+            </button>
+        </h2>
         <div id="late-policy" style="list-style: none; display: none; margin: 20px;">
             <p>maybe. probably.</p>
             <p>&nbsp;</p>
@@ -65,14 +81,16 @@
         <p>&nbsp;</p>
     </div>
     <div style="display: none;">
-        <h3 
-            class="element_toggler alert alert-success" 
-            style="font-style: italic; color: navy;" 
-            aria-controls="hyflex" 
-            aria-label="Toggler toggle list visibility" 
-            aria-expanded="false">
+        <h2>
+            <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#hyflex"
+                aria-expanded="false"
+                aria-controls="hyflex">
                 + So, HyFlex. Cool. So I really don't ever have to come to class?
-        </h3>
+            </button>
+        </h2>
         <div id="hyflex" style="list-style: none; display: none; margin: 20px;">
             <p>kinda.</p>
             <p>&nbsp;</p>
