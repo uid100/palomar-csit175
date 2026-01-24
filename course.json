@@ -31,7 +31,7 @@
   "textbook": "materials/textbook.json",
   "content": {
     "modules": {
-      "01-sequential": {
+      "01": {
         "title": "Module 1 - Sequential Processing",
         "pages": {
           "implementation-note": {
@@ -39,15 +39,15 @@
             "2": "use *source* for course-repo relative (internal) links, courseBase + source"
           },
           "announce1": { "title": "Announcement: Welcome to CSIT 175!", "type": "announcement", "resource": "https://uid100.github.io/palomar-csit175/content/01/01.0.0.welcome.html" },
-          "overview": {  "title": "Module Overview", "type": "content", "source": "/content/01/overview01.html"},
+          "overview": {  "title": "Module Overview", "type": "content", "source": "content/01/overview01.html"},
           "install-python": {  "title": "Installing Python", "type": "content", "resource": "https://uid100.github.io/py/content/install-python.html"},
           "chapter1": {  "title": "An Introduction to Python Programming", "type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch1.html"},
           "chapter2": { "title": "Writing your first programs","type": "content", "resource": "https://uid100.github.io/py/notes/murach2d/ch2.html"},
-          "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "/content/01/ack.html"},
-          "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "/content/01/disc-intro.html"},
+          "ack": { "title": "Syllabus Acknowledgement","type": "content", "source": "content/01/ack.html"},
+          "disc-intro": { "title": "Discussion: Sequential Processing","type": "content", "source": "content/01/disc-intro.html"},
           "hello-world": {"title": "Hello, World!","type": "content", "resource": "https://uid100.github.io/py/content/hello-world.html" },
           "variables": {"title": "Variables: An Introduction","type": "content", "resource": "https://uid100.github.io/py/content/variables.html" },
-          "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 1: Sequential Processing", "type": "content", "source": "content/end-module.html"}
         },
         "lab": {
           "title": "Lab #1 - Sequential Processing",
