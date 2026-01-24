@@ -2,8 +2,25 @@
     <p style="font-style: italic;">click each topic to expand</p>
     <p>&nbsp;</p>
     <div>
-        <h3 class="element_toggler alert alert-success" style="font-style: italic; color: navy;" aria-controls="textbook-edition" aria-label="Toggler toggle list visibility" aria-expanded="false">+ I have an older version of the textbook, do I need to buy the newer (2d) edition?</h3>
-        <div id="textbook-edition" style="list-style: none; display: none; margin: 20px;">
+        <!-- <h3 
+            class="element_toggler alert alert-success" 
+            style="font-style: italic; color: navy;" 
+            aria-controls="textbook-edition" 
+            aria-label="Toggler toggle list visibility" 
+            aria-expanded="false"> -->
+
+<!-- Trigger -->
+        <h3>
+            <button class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#textbook-edition"
+                aria-expanded="false"
+                aria-controls="textbook-edition">
+                + I have an older version of the textbook, do I need to buy the newer (2d) edition?
+            </button>
+        </h3>
+        <div id="textbook-edition" class="collapse" style="list-style: none; margin: 20px;">
             <p>Probably not. I have both the first and second editions. Both are good. The newer edition does have some updated content. In fact, programming languages do evolve over time, so there will be ongoing changes to the language. We will talk through the changes and discover other resources to use as well.</p>
             <p>Relative to other textbooks, this one is modestly priced, but you can probably find a used copy of the older edition and save some a few dollars. Be aware that buying used books online can take longer to arrive and the delay may not be worth the savings.</p>
             <p>The newer version is the one supported by the publisher and any updated materials.</p>
@@ -11,7 +28,14 @@
         <p>&nbsp;</p>
     </div>
     <div>
-        <h3 class="element_toggler alert alert-success" style="font-style: italic; color: navy;" aria-controls="mac-v-pc" aria-label="Toggler toggle list visibility" aria-expanded="false">+ Do I need to use a mac or a PC for this class?</h3>
+        <h3>
+            class="element_toggler alert alert-success" 
+            style="font-style: italic; color: navy;" 
+            aria-controls="mac-v-pc" 
+            aria-label="Toggler toggle list visibility" 
+            aria-expanded="false">
+                + Do I need to use a mac or a PC for this class?
+        </h3>
         <div id="mac-v-pc" style="list-style: none; display: none; margin: 20px;">
             <p>Yes! Actually, a stable Linux release would probably be ok too.</p>
             <p>&nbsp;</p>
@@ -24,7 +48,14 @@
         <p>&nbsp;</p>
     </div>
     <div>
-        <h3 class="element_toggler alert alert-success" style="font-style: italic; color: navy;" aria-controls="late-policy" aria-label="Toggler toggle list visibility" aria-expanded="false">+ I messed up and missed the due date for the last assignment, can I turn it in now?</h3>
+        <h3 
+            class="element_toggler alert alert-success" 
+            style="font-style: italic; color: navy;" 
+            aria-controls="late-policy" 
+            aria-label="Toggler toggle list visibility" 
+            aria-expanded="false">
+                + I messed up and missed the due date for the last assignment, can I turn it in now?
+        </h3>
         <div id="late-policy" style="list-style: none; display: none; margin: 20px;">
             <p>maybe. probably.</p>
             <p>&nbsp;</p>
@@ -34,7 +65,14 @@
         <p>&nbsp;</p>
     </div>
     <div style="display: none;">
-        <h3 class="element_toggler alert alert-success" style="font-style: italic; color: navy;" aria-controls="hyflex" aria-label="Toggler toggle list visibility" aria-expanded="false">+ So, HyFlex. Cool. So I really don't ever have to come to class?</h3>
+        <h3 
+            class="element_toggler alert alert-success" 
+            style="font-style: italic; color: navy;" 
+            aria-controls="hyflex" 
+            aria-label="Toggler toggle list visibility" 
+            aria-expanded="false">
+                + So, HyFlex. Cool. So I really don't ever have to come to class?
+        </h3>
         <div id="hyflex" style="list-style: none; display: none; margin: 20px;">
             <p>kinda.</p>
             <p>&nbsp;</p>
