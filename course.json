@@ -75,20 +75,20 @@
       "03-iteration": {
         "title": "Module 3 - Repetitive Processing",
         "pages": {
-          "overview": { "title": "Repetition Structures","type": "content","source": "/content/03/overview03.html"},
-          "page1": { "title": "Loops","type": "content","source": "/content/03/lesson1/page1.html"},
-          "page2": { "title": "Loop Control", "type": "content", "source": "/content/03/lesson1/page2.html"},
-          "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "/content/end-module.html"}
+          "overview": { "title": "Repetition Structures","type": "content","source": "content/03/overview03.html"},
+          "page1": { "title": "Loops","type": "content","source": "content/03/lesson1/page1.html"},
+          "page2": { "title": "Loop Control", "type": "content", "source": "content/03/lesson1/page2.html"},
+          "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "content/end-module.html"}
         }
       },
       "04-functions": {
         "title": "Module 4 - Functions",
         "pages": {
-          "overview": { "title": "Defining and Using Functions","type": "content","source": "/content/04/overview04.html"},
+          "overview": { "title": "Defining and Using Functions","type": "content","source": "content/04/overview04.html"},
           "page1": { "title": "Functions","type": "content","source": "content/modules/04-functions/lesson1/page1.html"},
           "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"},
           "pycache": { "title": "Understanding __pycache__","type": "content","resource": "https://uid100.github.io/py/content/bytecode.html"},
-          "end": { "title": "End of Module 4: Functions", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 4: Functions", "type": "content", "source": "content/end-module.html"}
         }
       },
       "05-testing-debugging": {
@@ -153,14 +153,14 @@
         "title": "Module 12 - Course Wrap-Up",
         "pages": {
           "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
-          "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Course", "type": "content", "source": "content/end-module.html"}
         }
       },
       "99-resources": {
         "title": "Resources",
         "pages": {
           "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
-          "faq": { "title": "End of Course", "type": "content", "source": "/content/modules/99-resources/faq.html"}
+          "faq": { "title": "End of Course", "type": "content", "source": "content/modules/99-resources/faq.html"}
         }
       }
     }
