@@ -155,6 +155,13 @@
           "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
           "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
         }
+      },
+      "99-resources": {
+        "title": "Resources",
+        "pages": {
+          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
+          "faq": { "title": "End of Course", "type": "content", "source": "/content/modules/99-resources/faq.html"}
+        }
       }
     }
   },
