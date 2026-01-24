@@ -144,24 +144,24 @@
       "11": {
         "title": "Module 11 - Web Applications",
         "pages": {
-          "page1": { "title": "Web Frameworks","type": "content","source": "content/modules/11-webapps/lesson1/page1.html"},
-          "page2": { "title": "Building Web Apps", "type": "content", "source": "content/modules/11-webapps/lesson1/page2.html"},
+          "page1": { "title": "Web Frameworks","type": "content","source": "/content/modules/11-webapps/lesson1/page1.html"},
+          "page2": { "title": "Building Web Apps", "type": "content", "source": "/content/modules/11-webapps/lesson1/page2.html"},
           "end": { "title": "End of Module 11: Web Applications", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "12": {
         "title": "Module 12 - Course Wrap-Up",
         "pages": {
-          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12/lesson1/page1.html"},
+          "page1": { "title": "Review and Next Steps","type": "content","source": "/content/12/lesson1/page1.html"},
           "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "99": {
         "title": "Resources",
         "pages": {
-          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12/lesson1/page1.html"},
-          "f-strings": { "title": "Python f-Strings","type": "content", "resource": "content/99/f-strings.html"},
-          "faq": { "title": "FAQ", "type": "content", "source": "content/99/faq.html"}
+          "page1": { "title": "Review and Next Steps","type": "content","source": "/content/12/lesson1/page1.html"},
+          "f-strings": { "title": "Python f-Strings","type": "content", "resource": "/content/99/f-strings.html"},
+          "faq": { "title": "FAQ", "type": "content", "source": "/content/99/faq.html"}
         }
       }
     }
