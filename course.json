@@ -152,15 +152,15 @@
       "12": {
         "title": "Module 12 - Course Wrap-Up",
         "pages": {
-          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
-          "end": { "title": "End of Course", "type": "content", "source": "content/end-module.html"}
+          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12/lesson1/page1.html"},
+          "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "99": {
         "title": "Resources",
         "pages": {
-          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12-wrapup/lesson1/page1.html"},
-          "faq": { "title": "End of Course", "type": "content", "source": "content/modules/99-resources/faq.html"}
+          "page1": { "title": "Review and Next Steps","type": "content","source": "content/modules/12/lesson1/page1.html"},
+          "faq": { "title": "End of Course", "type": "content", "source": "content/modules/99/faq.html"}
         }
       }
     }
