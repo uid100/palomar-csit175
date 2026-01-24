@@ -160,7 +160,7 @@
         "title": "Resources",
         "pages": {
           "page1": { "title": "Review and Next Steps","type": "content","source": "/content/12/lesson1/page1.html"},
-          "f-strings": { "title": "Python f-Strings","type": "content", "resource": "/content/99/f-strings.html"},
+          "f-strings": { "title": "Python f-strings","type": "content", "resource": "/content/99/f-strings.html"},
           "faq": { "title": "FAQ", "type": "content", "source": "/content/99/faq.html"}
         }
       }
