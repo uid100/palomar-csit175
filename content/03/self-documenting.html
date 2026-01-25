@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Self-Documenting Code</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-light">
 <div class="container py-4">
-
   <h1 class="mb-4">Understanding Self-Documenting Code</h1>
-
   <!-- Traditional Commenting Problems -->
   <div class="card mb-3">
     <div class="card-body">
@@ -93,7 +82,7 @@
       <h5 class="card-title">Code Examples</h5>
 
       <p class="fw-semibold mt-3 mb-1">Poorly Documented Code with Heavy Comments</p>
-      <pre class="bg-dark text-light p-2 rounded">
+      <pre class="p-2 rounded">
 int x = 0; // x tracks the number of users
 for (int i = 0; i &lt; users.size(); i++) { // loop through users
   if (users[i].isActive()) { // if active
@@ -103,7 +92,7 @@ for (int i = 0; i &lt; users.size(); i++) { // loop through users
       </pre>
 
       <p class="fw-semibold mt-3 mb-1">Self-Documenting Version (Few or No Comments Needed)</p>
-      <pre class="bg-dark text-light p-2 rounded">
+      <pre class="p-2 rounded">
 int activeUserCount = 0;
 for (const User&amp; user : users) {
   if (user.isActive()) {
@@ -111,6 +100,34 @@ for (const User&amp; user : users) {
   }
 }
       </pre>
+    </div>
+  </div>
+
+    <!-- Identifiers Beyond Variables -->
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">All Identifiers Should Be Clear and Descriptive</h5>
+      <p class="card-text">
+        Self-documenting code is not limited to variable naming. <strong>All identifiers</strong> in a codebase should be clear,
+        descriptive, and unambiguous. This includes variable names, function and method names, constants, class names,
+        modules, and even file names.
+      </p>
+      <p class="card-text">
+        For example, a function named <code>calculateShippingCost()</code> communicates its purpose and suggests it returns
+        a numeric value. A constant named <code>MAX_UPLOAD_SIZE_MB</code> clearly conveys meaning, making it easier to
+        understand constraints in the code. Meanwhile, ambiguous names force the reader to search for context or make
+        assumptions, which wastes time and increases the likelihood of mistakes.
+      </p>
+      <p class="card-text">
+        The clarity principle also applies to file organization. A directory full of files named like
+        <code>lab6exercise2</code>, <code>finalprojV3</code>, or <code>stuff</code> does little to reveal their contents.
+        In contrast, filenames such as <code>user_auth_controller.py</code> or <code>payment_processing_tests.cpp</code>
+        allow a developer to identify purpose at a glance without opening anything.
+      </p>
+      <p class="card-text">
+        Clear identifiers create codebases that are quicker to navigate, easier to search, and more pleasant to maintain.
+        When every name communicates meaning, developers spend less time decoding intent and more time building solutions.
+      </p>
     </div>
   </div>
 
@@ -129,7 +146,7 @@ for (const User&amp; user : users) {
 
   <div class="container">
     <div class="card">
-        <div class="card-header">Self-Documenting Code</div>
+        <div class="card-header">Self-Documenting Code - Summary</div>
         <div class="card-body">
             <h1>Self-Documenting Code</h1>
             <p>
