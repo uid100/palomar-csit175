@@ -83,7 +83,12 @@
           "self-documenting": { "title": "Documenting Code","type": "content","resource": "https://uid100.github.io/edu-core/shared/self-documenting-code.html"},
           "demo": { "title": "Sample Code", "type": "content", "resource": "https://uid100.github.io/py/03-iteration/demo/sample_code.html"},
           "end": { "title": "End of Module 3: Repetitive Processing", "type": "content", "source": "content/end-module.html"}
-        }
+          },
+          "lab": {
+            "title": "Lab #3 - Repetitive Processing",
+            "taskListUrl": "https://uid100.github.io/py/03-iteration/ex/task-list.json",
+            "fragmentsBase": "https://uid100.github.io/py/03-iteration/ex/"
+          }
       },
       "04": {
         "title": "Module 4 - Functions",
@@ -93,7 +98,12 @@
           "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"},
           "pycache": { "title": "Understanding __pycache__","type": "content","resource": "https://uid100.github.io/py/content/bytecode.html"},
           "end": { "title": "End of Module 4: Functions", "type": "content", "source": "content/end-module.html"}
-        }
+        },
+        "lab": {
+          "title": "Lab #4 - Functions",
+          "taskListUrl": "https://uid100.github.io/py/04-functions/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/04-functions/ex/"
+        } 
       },
       "05": {
         "title": "Module 5 - Testing and Debugging",
@@ -101,6 +111,11 @@
           "page1": { "title": "Testing","type": "content","source": "content/modules/05-testing-debugging/lesson1/page1.html"},
           "disc-testing": { "title": "Debugging", "type": "content", "source": "/content/05/disc-testing.html"},
           "end": { "title": "End of Module 5: Testing and Debugging", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #5 - Testing and Debugging",
+          "taskListUrl": "https://uid100.github.io/py/05-testing-debugging/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/05-testing-debugging/ex/"
         }
       },
       "06": {
