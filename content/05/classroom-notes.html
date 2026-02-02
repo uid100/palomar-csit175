@@ -1,0 +1,102 @@
+<h2>unit testing</h2>
+<hr />
+<h3><code>assert</code> demo</h3>
+<h3>app.py</h3>
+<pre>#!/usr/bin/env python3
+
+# Dan Sullivan - dsullivan1@palomar.edu
+# Palomar College - CSIT 175: Python Programming
+# Spring 2025
+
+# This program is a simple web application to demonstrate unit testing.
+
+number1 = [1, 1, 2, 2,  3,  3,  4,  4,  5,  5]
+number2 = [1, 2, 3, 4,  5,  6,  7,  8,  9, 10]
+product = [1, 2, 6, 8, 15, 18, 28, 32, 45, 50]
+
+def multiply(number1, number2):
+    return number1 * number2
+
+def main():
+    for i in range(10):
+        result = multiply(number1[i], number2[i])
+        print(f"{number1[i]} * {number2[i]} = {result}")
+        assert result == product[i], f"Expected {product[i]}, but got {result}"
+
+if __name__ == "__main__":
+    main()
+</pre>
+<hr />
+<h3>Units.py</h3>
+<pre>#!/usr/bin/env python3
+
+# Dan Sullivan -
+# Palomar College - CSIT 175: Python Programming
+# Spring 2025
+
+# Unit conversion utility functions
+
+# constants
+MI_PER_KM = 0.62
+LBS_PER_KG = 2.2
+
+# functions
+def km_to_mi(km):
+    return km * MI_PER_KM
+
+def mi_to_km(mi):
+    return mi / MI_PER_KM
+
+def kg_to_lbs(kg):
+    return kg * LBS_PER_KG
+
+def lbs_to_kg(lbs):
+    return lbs / LBS_PER_KG
+</pre>
+<hr />
+<h3>test.py</h3>
+<pre>#!/usr/bin/env python3
+
+# Dan Sullivan - dsullivan1@palomar.edu
+# Palomar College - CSIT 175: Python Programming
+# Spring 2025
+
+# This program is a simple web application to demonstrate unit testing.
+
+import unittest
+import Units
+
+
+class TestUnits(unittest.TestCase):
+
+    def test_km_to_mi(self):
+        self.assertEqual(round(Units.km_to_mi(1), 2), 0.62)
+        self.assertEqual(round(Units.km_to_mi(2), 2), 1.24)
+        self.assertEqual(round(Units.km_to_mi(3), 2), 1.86)
+        self.assertEqual(round(Units.km_to_mi(4), 2), 2.48)
+        self.assertEqual(round(Units.km_to_mi(5), 2), 3.1)
+
+    def test_mi_to_km(self):
+        self.assertEqual(round(Units.mi_to_km(1), 2), 1.61)
+        self.assertEqual(round(Units.mi_to_km(2), 2), 3.23)
+        self.assertEqual(round(Units.mi_to_km(3), 2), 4.84)
+        self.assertEqual(round(Units.mi_to_km(4), 2), 6.45)
+        self.assertEqual(round(Units.mi_to_km(5), 2), 8.06)
+
+    def test_kg_to_lbs(self):
+        self.assertEqual(round(Units.kg_to_lbs(1), 2), 2.2)
+        self.assertEqual(round(Units.kg_to_lbs(2), 2), 4.4)
+        self.assertEqual(round(Units.kg_to_lbs(3), 2), 6.6)
+        self.assertEqual(round(Units.kg_to_lbs(4), 2), 8.8)
+        self.assertEqual(round(Units.kg_to_lbs(5), 2), 11.0)
+
+    def test_lbs_to_kg(self):
+        self.assertEqual(round(Units.lbs_to_kg(1), 2), 0.45)
+        self.assertEqual(round(Units.lbs_to_kg(2), 2), 0.91)
+        self.assertEqual(round(Units.lbs_to_kg(3), 2), 1.36)
+        self.assertEqual(round(Units.lbs_to_kg(4), 2), 1.82)
+        self.assertEqual(round(Units.lbs_to_kg(5), 2), 2.27)
+
+if __name__ == "__main__":
+    unittest.main()
+</pre>
