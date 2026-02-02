@@ -115,8 +115,8 @@
         },
         "lab": {
           "title": "Lab #5 - Testing and Debugging",
-          "taskListUrl": "https://uid100.github.io/py/05-testing-debugging/ex/task-list.json",
-          "fragmentsBase": "https://uid100.github.io/py/05-testing-debugging/ex/"
+          "taskListUrl": "https://uid100.github.io/py/05-testing/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/05-testing/ex/"
         }
       },
       "06": {
