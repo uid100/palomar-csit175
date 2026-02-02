@@ -108,7 +108,8 @@
       "05": {
         "title": "Module 5 - Testing and Debugging",
         "pages": {
-          "page1": { "title": "Testing","type": "content","source": "content/modules/05-testing-debugging/lesson1/page1.html"},
+          "overview": { "title": "Software Testing","type": "content","source": "content/05/overview05.html"},
+          "stages": { "title": "Software Test - Stages","type": "content","source": "content/05/stages.html"},
           "disc-testing": { "title": "Debugging", "type": "content", "source": "/content/05/disc-testing.html"},
           "end": { "title": "End of Module 5: Testing and Debugging", "type": "content", "source": "/content/end-module.html"}
         },
