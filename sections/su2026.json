@@ -1,0 +1,36 @@
+{ 
+  "canvas": {
+    "server": "https://palomar.instructure.com",
+    "coursePath": "/courses/61970"
+  },
+  "sectionNumber": "32538",
+  "courseId": "CSIT-175 (32538)",
+  "term": "Summer 2026",
+    "dates": {
+    "start": "2026-06-15",
+    "end": "2026-08-15",
+    "withdraw": "2026-07-01",
+    "classesEnd": "2026-08-01",
+    "finals": "2026-08-03",
+    "finalsEnd": "2026-08-07",
+    "gradesDue": "2026-08-10",
+    "gradesPosted": "2026-08-12",
+    "holidays": {
+      "mlkDay": "2026-01-19",
+      "Pres. Lincoln's Day": "2026-02-13",
+      "Pres. Washington's Day": "2026-02-16",
+      "springBreak": {
+        "start": "2026-03-23",
+        "end": "2026-03-27"
+      },
+      "memorialDay": "2026-05-25"
+    }
+  },
+  "*startDate": "2026-06-15T08:00:00",
+  "*endDate": "2026-08-03T08:00:00",
+  "schedule": {
+    "day": "Monday",
+    "time": "6P - 9P",
+    "location": "Rancho Bernardo Ed Center #416"
+  }
+}
