@@ -165,17 +165,27 @@
       "09": {
         "title": "Module 9 - Object-Oriented Programming",
         "pages": {
-          "page1": { "title": "Classes and Objects","type": "content","source": "content/modules/09-classes/lesson1/page1.html"},
-          "page2": { "title": "Methods and Attributes", "type": "content", "source": "content/modules/09-classes/lesson1/page2.html"},
+          "overview": { "title": "Object-Oriented Programming","type": "content","source": "content/09/overview09.html"},
+          "objects": { "title": "Objects and Classes","type": "content",  "resource": "https://uid100.github.io/py/content/objects.html"},
           "end": { "title": "End of Module 9: Object-Oriented Programming", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #9 - Object-Oriented Programming",
+          "taskListUrl": "https://uid100.github.io/py/09-classes/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/09-classes/ex/"
         }
       },
       "10": {
         "title": "Module 10 - Inheritance and Polymorphism",
         "pages": {
-          "page1": { "title": "Inheritance","type": "content","source": "content/modules/10-inheritance/lesson1/page1.html"},
-          "page2": { "title": "Polymorphism", "type": "content", "source": "content/modules/10-inheritance/lesson1/page2.html"},
+          "overview": { "title": "Inheritance and Polymorphism","type": "content","source": "content/10/overview10.html"},
+          "inheritance": { "title": "Inheritance","type": "content",  "resource": "https://uid100.github.io/py/content/inheritance.html"},
           "end": { "title": "End of Module 10: Inheritance and Polymorphism", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab #10 - Inheritance and Polymorphism",
+          "taskListUrl": "https://uid100.github.io/py/10-inheritance/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/10-inheritance/ex/"
         }
       },
       "11": {
