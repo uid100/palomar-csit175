@@ -189,18 +189,20 @@
         }
       },
       "11": {
+        "note": "this is an optional module for 16-week sections, not in 8-week term.",
         "title": "Module 11 - Event-Driven Programming",
         "pages": {
-          "page1": { "title": "Web Frameworks","type": "content","source": "/content/modules/11-webapps/lesson1/page1.html"},
-          "page2": { "title": "Building Web Apps", "type": "content", "source": "/content/modules/11-webapps/lesson1/page2.html"},
+          "page1": { "title": "","type": "content","source": "/content/modules/11-webapps/lesson1/page1.html"},
+          "page2": { "title": "", "type": "content", "source": "/content/modules/11-webapps/lesson1/page2.html"},
           "end": { "title": "End of Module 11: Web Applications", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "12": {
+        "note":"the optional module will change the numbering",
         "title": "Module 12 - Web Applications",
         "pages": {
-          "page1": { "title": "Web Frameworks","type": "content","source": "/content/modules/12-webapps/lesson1/page1.html"},
-          "page2": { "title": "Building Web Apps", "type": "content", "source": "/content/modules/12-webapps/lesson1/page2.html"},
+          "overview": { "title": "Web Applications","type": "content","source": "content/12/overview12.html"},
+          "web-services": { "title": "Web Services","type": "content","resource": "https://uid100.github.io/edu-core/shared/web-services.html"},
           "end": { "title": "End of Module 12: Web Applications", "type": "content", "source": "/content/end-module.html"}
         }
       },
