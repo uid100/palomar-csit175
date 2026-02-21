@@ -216,7 +216,8 @@
       "13": {
         "title": "Module 13 - Course Wrap-Up",
         "pages": {
-          "page1": { "title": "Review and Next Steps","type": "content","source": "/content/13/lesson1/page1.html"},
+          "overview": { "title": "Review and Next Steps","type": "content","source": "content/13/overview13.html"},
+          "summary": { "title": "Review and Next Steps","type": "content","resource": "https://uid100.github.io/py/13-wrap-up/summary.html"},
           "end": { "title": "End of Course", "type": "content", "source": "/content/end-module.html"}
         }
       },
