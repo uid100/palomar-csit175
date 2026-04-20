@@ -194,6 +194,7 @@
         "title": "Module 11 - Event-Driven Programming",
         "pages": {
           "overview": { "title": "Event-Driven Programming","type": "content","source": "content/11/overview11.html"},
+          "events": { "title": "Events","type": "content",  "resource": "https://uid100.github.io/py/content/events.html"},
           "end": { "title": "End of Module 11: Event-Driven Programming", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
