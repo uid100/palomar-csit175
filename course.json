@@ -194,7 +194,7 @@
         "title": "Module 11 - Event-Driven Programming",
         "pages": {
           "overview": { "title": "Event-Driven Programming","type": "content","source": "content/11/overview11.html"},
-          "events": { "title": "Events","type": "content",  "resource": "https://uid100.github.io/py/content/events.html"},
+          "events": { "title": "Events","type": "content",  "resource": "https://uid100.github.io/py/11-gui/events.html"},
           "tkinter": { "title": "Tkinter","type": "content",  "resource": "https://uid100.github.io/py/11-gui/tkinter.html"},
           "matplotlib": { "title": "Matplotlib","type": "content",  "resource": "https://uid100.github.io/py/11-gui/matplotlib.html"},
           "end": { "title": "End of Module 11: Event-Driven Programming", "type": "content", "source": "/content/end-module.html"}
