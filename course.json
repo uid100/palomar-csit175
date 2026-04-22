@@ -201,8 +201,8 @@
         },
         "lab": {
           "title": "Lab #11 - Event-Driven Programming",
-          "taskListUrl": "https://uid100.github.io/py/11-events/ex/task-list.json",
-          "fragmentsBase": "https://uid100.github.io/py/11-events/ex/"
+          "taskListUrl": "https://uid100.github.io/py/11-gui/ex/task-list.json",
+          "fragmentsBase": "https://uid100.github.io/py/11-gui/ex/"
         }
       },
       "12": {
