@@ -29,7 +29,7 @@
   "*startDate": "2026-06-15T08:00:00",
   "*endDate": "2026-08-03T08:00:00",
   "schedule": {
-    "day": "Monday",
+    "day": "Tu - Th",
     "time": "6P - 9P",
     "location": "Rancho Bernardo Ed Center #416"
   }
